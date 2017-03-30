@@ -1,0 +1,89 @@
+@font-face {
+	font-family: proxima;
+	src: url(ProximaNovaAltRegular.otf);
+}
+@font-face {
+	font-family: proxima-light;
+	src: url(ProximaNovaThin.otf);
+}
+body, html {
+	width: 100% !important;
+	height: auto;
+	overflow-x: hidden;
+	font-family: proxima;
+	padding: 0px;
+	margin: 0px;
+}
+.carousel {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.carousel-inner {
+	width: 100%;
+	background: #ffffff;
+	overflow: hidden;
+	height: 85vh;
+}
+.carousel-item {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	background: #f2f2f2;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center middle;
+}
+.carousel-indicators {
+	width: 100%;
+}
+.carousel-indicators > ul {
+	list-style-type: none;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	padding-left: 20%;
+}
+.carousel-indicators > ul > li {
+	display: inline-table;
+	border: 0px solid;
+	padding: 1%;
+	min-width: 18%;
+	margin-right: 1px;
+	text-align: center;
+	background: #5cd65c;
+	color: #ffffff;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: background 0.1s ease;
+}
+.carousel-indicators > ul > li:hover {
+	background: #2eb82e;
+}
+.carousel-info {
+	width: 100%;
+	text-align: center;
+	word-wrap: all;
+}
+.carousel-info > p {
+	padding: 20px 250px;
+	font-family: proxima-light;
+	font-size: 1.5rem;
+}
+.active {
+	background: #ffffff !important;
+	color: #5cd65c !important;
+}
+#item1 {
+	background-image: url(cleanuptheworld.jpg);
+}
+#item2 {
+	background-image: url(lifeisgreen.jpg);
+	margin-top: -85vh;
+	opacity: 0;
+}
+#item3 {
+	background-image: url(nomoreplastic.jpg);
+	margin-top: -85vh;
+	opacity: 0;
+}
