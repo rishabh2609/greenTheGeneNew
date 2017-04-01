@@ -23,7 +23,7 @@ body, html {
 	width: 100%;
 	background: #ffffff;
 	overflow: hidden;
-	height: 85vh;
+	height: 90vh;
 }
 .carousel-item {
 	width: 100%;
@@ -74,16 +74,16 @@ body, html {
 	background: #ffffff !important;
 	color: #5cd65c !important;
 }
-#item1 {
+#car-item1 {
 	background-image: url(cleanuptheworld.jpg);
 }
-#item2 {
+#car-item2 {
 	background-image: url(lifeisgreen.jpg);
-	margin-top: -85vh;
+	margin-top: -90vh;
 	opacity: 0;
 }
-#item3 {
+#car-item3 {
 	background-image: url(nomoreplastic.jpg);
-	margin-top: -85vh;
+	margin-top: -90vh;
 	opacity: 0;
 }
