@@ -21,16 +21,27 @@ body, html {
 	margin: 0px;
 	padding: 0px;
 }
-#home > p {
-	padding: 50px 150px;
+#home > hr {
+	width: 15%;
+	color: #004d1a;
+	background-color: #004d1a;
+	height: 1px;
+	margin-top: 7%;
+	margin-bottom: 0px;
+}
+#home > h1{
+	padding: 0px 350px;
 	font-size: 2.5rem;
 	text-align: center;
 	font-family: proxima-light;
+	color: #004d1a;
+	margin-bottom: 7%;
 }
 #initiatives {
 	background: #004d1a !important;
 	font-size: 3rem;
-	color: #ffffff; 
+	color: #ffffff;
+	font-family: proxima-light; 
 	font-weight: lighter;
 	float: left;
 }
@@ -45,6 +56,7 @@ body, html {
 	font-size: 1.5rem;
 	width: 40%;
 	padding: 30px 30px;
+	text-align: left;
 	float: right;
 }
 .empty-block {
@@ -75,4 +87,40 @@ body, html {
 }
 .btn-join {
 	display: block;
+}
+#quote {
+	background: #004d1a;
+	padding: 0px;
+	float: left;
+	font-family: proxima-light;
+}
+#quote > p {
+	color: #ffffff;
+	font-size: 3rem;
+	text-align: center;
+	padding: 100px 120px;
+	margin: 0px;
+}
+#follow {
+	width: 100%;
+	float: left;
+	background: #5cd65c;
+	color: #ffffff;
+}
+#follow > h1 {
+	margin-left: 30%;
+	text-transform: uppercase;
+	font-family: proxima-light;
+	font-size: 2.5rem;
+}
+#follow > ul {
+	list-style-type: none;
+	margin-left: 30%;
+}
+#follow > ul > li { 
+	display: inline;
+	margin-left: 5px;
+}
+#follow > ul > li > img {
+	width: 50px;
 }
