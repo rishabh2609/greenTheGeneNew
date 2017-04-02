@@ -1,19 +1,4 @@
-@font-face {
-	font-family: proxima;
-	src: url(ProximaNovaAltRegular.otf);
-}
-@font-face {
-	font-family: proxima-light;
-	src: url(ProximaNovaThin.otf);
-}
-body, html {
-	width: 100% !important;
-	height: auto;
-	overflow-x: hidden;
-	font-family: proxima;
-	padding: 0px;
-	margin: 0px;
-}
+
 .carousel {
 	width: 100%;
 	height: auto;

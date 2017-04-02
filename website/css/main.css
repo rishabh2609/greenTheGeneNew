@@ -1,0 +1,47 @@
+@font-face {
+	font-family: proxima;
+	src: url(ProximaNova-Regular.otf);
+}
+@font-face {
+	font-family: proxima-light;
+	src: url(ProximaNovaThin.otf);
+}
+body, html {
+	width: 100% !important;
+	height: auto;
+	overflow-x: hidden;
+	font-family: proxima;
+	padding: 0px;
+	margin: 0px;
+}
+#home, #initiatives {
+	width: 100%;
+	height: auto;
+	background: #ffffff;
+	margin: 0px;
+	padding: 0px;
+}
+#home > p {
+	padding: 50px 150px;
+	font-size: 2.5rem;
+	text-align: center;
+	font-family: proxima-light;
+}
+#initiatives {
+	background: #004d1a !important;
+	font-size: 3rem;
+	color: #ffffff; 
+	font-weight: lighter;
+}
+.col-left {
+	padding: 20px 0px;
+	text-align: right;
+	text-transform: uppercase;
+	width: 40%;
+}
+.col-right {
+	font-size: 1.5rem;
+	padding: 30px 30px;
+	width: 40%;
+	margin-left: 40%;
+}
