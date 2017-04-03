@@ -25,6 +25,9 @@ body, html {
 	height: 80vh;
 	width: 75%;
 	background: #f2f2f2;
+	background-size: cover;
+	background-position: center bottom;
+	background-repeat: no-repeat;
 }
 .slide-img-item > p {
 	margin: 0px;
@@ -34,13 +37,16 @@ body, html {
 	margin-left: 20px;
 	background: transparent;
 	font-size: 5rem;
+	font-weight: 500;
+	color: #ffffff;
 	font-family: proxima-light;
 	word-wrap: all;
 }
 #img-item1 {
-	background: rgb(200, 200, 200);
+	background-image: url(body1.jpg);
 }
 #img-item2 {
 	margin-left: 75%; 
 	margin-top: -80vh;
+	background-image: url(body2.jpg);
 }

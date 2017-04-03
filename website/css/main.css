@@ -23,8 +23,8 @@ body, html {
 }
 #home > hr {
 	width: 15%;
-	color: #004d1a;
-	background-color: #004d1a;
+	color: #196619;
+	background-color: #196619;
 	height: 1px;
 	margin-top: 7%;
 	margin-bottom: 0px;
@@ -34,11 +34,11 @@ body, html {
 	font-size: 2.5rem;
 	text-align: center;
 	font-family: proxima-light;
-	color: #004d1a;
+	color: #196619;
 	margin-bottom: 7%;
 }
 #initiatives {
-	background: #004d1a !important;
+	background: #196619 !important;
 	font-size: 3rem;
 	color: #ffffff;
 	font-family: proxima-light; 
@@ -63,7 +63,7 @@ body, html {
 	/*remove this when content is added*/
 	width: 100%;
 	height: 50vh;
-	background: #004d1a;
+	background: #196619;
 }
 #join {
 	float: left;
@@ -89,7 +89,7 @@ body, html {
 	display: block;
 }
 #quote {
-	background: #004d1a;
+	background: #196619;
 	padding: 0px;
 	float: left;
 	font-family: proxima-light;
