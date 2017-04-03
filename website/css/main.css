@@ -40,25 +40,52 @@ hr {
 }
 #initiatives {
 	background: #196619 !important;
-	font-size: 3rem;
+	font-size: 1.5rem;
 	color: #ffffff;
 	font-family: proxima-light; 
 	font-weight: lighter;
 	float: left;
 }
-.col-left {
+.row {
+	margin-top: 5%;
+	margin-bottom: 7.5%;
+	width: 100%;
+	min-height: 20vh;
+}
+.left-col {
 	width: 40%;
-	text-transform: uppercase;
-	padding: 20px 0px;
 	text-align: right;
 	float: left;
+	margin: 0px;
+	height: 100%;
+	display: inline-block;
 }
-.col-right {
-	font-size: 1.5rem;
-	width: 40%;
-	padding: 30px 30px;
+.left-col > h1 {
+	margin: 0px;
+	padding: 0px;
+}
+.right-col {
+	display: inline-block;
+	width: 58%;
+	height: 100%;
 	text-align: left;
 	float: right;
+	border: 0px solid #ffffff;
+	border-left-width: 3px;
+}
+.right-col > p {
+	text-align: left;
+	margin-left: 5%;
+	width: 75%;
+}
+.btn-more {
+	margin-left: 5%;
+	border: 0px solid;
+	background: #5cd65c;
+	padding: 15px 20px;
+	font-size: 1rem;
+	color: #ffffff;
+	text-transform: uppercase;
 }
 .empty-block {
 	/*remove this when content is added*/
