@@ -133,3 +133,23 @@ hr {
 #follow > ul > li > img {
 	width: 50px;
 }
+#siteMap {
+	background: #004d1a;
+	font-size: 1.2rem;
+	float: left;
+	width: 100%;
+	color: #ffffff;
+	padding: 20px 50px;
+}
+#siteMap > ul {
+	list-style-type: none;
+}
+#siteMap > ul > li {
+	display: inline-block;
+}
+#siteMap > ul > li >  ul {
+	list-style-type: none;
+}
+#siteMap > ul > li >  ul > li {
+	margin: 20px;
+}
