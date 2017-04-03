@@ -1,0 +1,76 @@
+@font-face {
+	font-family: proxima;
+	src: url(ProximaNova-Regular.otf);
+}
+@font-face {
+	font-family: proxima-light;
+	src: url(ProximaNovaThin.otf);
+}
+body, html {
+	width: 100% !important;
+	height: auto;
+	overflow-x: hidden;
+	font-family: proxima;
+	padding: 0px;
+	margin: 0px;
+}
+.navbar {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+	background: #ffffff;
+}
+.logo {
+	width: 18%;
+	background: #196619;
+	color: #ffffff;
+	font-family: proxima-light;
+	text-transform: lowercase;
+	padding-top: 20px;
+	height: 100%;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 2rem;
+}
+.logo > p {
+	margin: 0px;
+}
+.main-links {
+	position: absolute;
+	top: 0px;
+	left: 18%;
+	width: 50%;
+	height: 100%;
+}
+.main-links > ul, .aux-links > ul {
+	list-style-type: none;
+	height: inherit;
+	padding: 0px;
+	margin-left: 20px;
+}
+.main-links > ul > li {
+	display: inline;
+	font-size: 1.5rem;
+}
+.main-links > ul > li > a, .aux-links > ul > li > a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bolder;
+	color: #196619;
+	margin-right: 20px;
+}
+.aux-links {
+	position: absolute;
+	top: 0px;
+	left: 68%;
+	width: 32%;
+	height: 100%;
+}
+.aux-links > ul > li {
+	display: inline;
+	font-size: 1rem;
+}

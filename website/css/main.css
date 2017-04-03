@@ -180,3 +180,6 @@ hr {
 #siteMap > ul > li >  ul > li {
 	margin: 20px;
 }
+*:focus {
+	outline: none;
+}
