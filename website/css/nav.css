@@ -23,6 +23,7 @@
 	width: 20%;
 	height: 100%;
 	background: green;
+	border: 0px solid;
 }
 .nav-logo > p {
 	font-family: proxima-light;
@@ -31,14 +32,6 @@
 	word-wrap: all;
 	font-size: 1.65rem;
 	text-transform: uppercase;
-}
-#linkDisp {
-	display: none;
-	position: absolute;
-	top: 10%;
-	left: 80%;
-	width: 10%;
-	height: 25%;
 }
 .nav-main-links {
 	position: absolute;
@@ -56,6 +49,7 @@
 	background: transparent;
 	height: 100%;
 	width: 35%;
+	border: 0px solid;
 }
 .main-links, .left-links {
 	list-style-type: none;
@@ -80,11 +74,8 @@
 	border-bottom-width: 1px;
 }
 @media only screen and (max-width:1025px) {
-	#linkDisp {
-		display: initial;
-	}
 	.nav-main-links {
-		font-size: 1em;
+		font-size: 1rem;
 	}
 	.nav-bar {
 		height: 15%;
@@ -93,29 +84,43 @@
 		width: 50%;
 		height: 50%;
 	}
+	.nav-logo > p {
+		font-size: 2rem;
+	}
+	.left-links {
+		text-align: left;
+	}
+	.left-links > li > a {
+		color: #ffffff;
+	}
 	.nav-left-links {
 		left: 50%;
 		width: 50%;
 		height: 50%;
-		display: none;
+		background: green;
+		color: #ffffff;
 	}
 	.nav-main-links {
 		top: 50%;
 		left: 0px;
 		width: 100%;
 		height: 50%;
+		text-align: center;
 	}
 }
 @media only screen and (max-width:769px) {
 	.nav-left-links {
-		font-size: 1em;
+		font-size: 1rem;
 	}
 	.nav-main-links {
-		font-size: 1em;
+		font-size: 1rem;
 	}
 	.nav-logo {
 		width: 40%;
 		height: 50%;
+	}
+	.nav-logo > p {
+		font-size: 1.5rem;
 	}
 	.nav-left-links {
 		left: 40%;
@@ -132,22 +137,34 @@
 }
 @media only screen and (max-width:415px) {
 	.nav-left-links {
-		font-size: 0.5em;
+		font-size: 0.6em;
 	}
 	.nav-main-links {
-		font-size: 0.5em;
+		font-size: 0.6em;
 	}
 	.left-links {
 		margin-top: 15px;
 		padding: 0px;
+		text-align: right;
 	}
 	.main-links {
 		margin-top: 18px;
+	}
+	.nav-logo > p {
+		font-size: 1rem;
+	}
+}
+@media only screen and (max-width: 376px) {
+	.nav-left-links {
+		font-size: 0.5rem;
 	}
 }
 @media only screen and (max-width:321px) {
 	.nav-logo {
 		width: 35%;
+	}
+	.nav-logo > p {
+		font-size: 0.8rem;
 	}
 	.nav-left-links {
 		left: 35%;
