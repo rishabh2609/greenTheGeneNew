@@ -47,6 +47,7 @@
 	background: transparent;
 	width: 45%;
 	height: 100%;
+	padding: 0px;
 }
 .nav-left-links {
 	position: absolute;
@@ -61,7 +62,9 @@
 	margin-top: 30px;
 	font-size: 1.5em;
 	font-family: proxima;
-	text-align: center;
+}
+.left-links {
+	text-align: right;
 }
 .main-links>li, .left-links>li {
 	display: inline;
