@@ -10,6 +10,7 @@
 	width: 100%;
 	height: 12%;
 	overflow: hidden;
+	z-index: 999;
 }
 .nav-logo {
 	position: absolute;

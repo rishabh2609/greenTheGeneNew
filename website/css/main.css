@@ -183,3 +183,25 @@ hr {
 *:focus {
 	outline: none;
 }
+
+.joinUs {
+	float: left;
+	width: 100%;
+	height: auto;
+	margin-top: 7%;
+}
+.joinUs > p {
+	padding: 20px 50px;
+	font-size: 2rem;
+}
+
+.contribute {
+	float: left;
+	width: 100%;
+	height: auto;
+	margin-top: 7%;
+}
+.contribute > p {
+	padding: 20px 50px;
+	font-size: 2rem;
+}
