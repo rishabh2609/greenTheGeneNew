@@ -85,6 +85,7 @@ hr {
 	padding: 15px 20px;
 	font-size: 1rem;
 	color: #ffffff;
+	cursor: pointer;
 	text-transform: uppercase;
 }
 .empty-block {
@@ -122,6 +123,7 @@ hr {
 	padding: 10px 20px;
 	font-size: 1.5rem;
 	color: #ffffff;
+	cursor: pointer;
 	text-transform: uppercase;
 }
 #quote {

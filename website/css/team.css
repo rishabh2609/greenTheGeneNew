@@ -108,6 +108,13 @@ body, html {
 }
 .row {
 	margin-bottom: 30px;
+	text-align: center;
+}
+.col {
+	padding: 2% 2%;
+	text-align: center;
+	float: auto;
+	display: inline;
 }
 #follow {
 	width: 100%;
