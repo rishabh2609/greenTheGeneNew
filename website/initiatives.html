@@ -9,8 +9,9 @@
     <meta name="robots" content="index, follow" />
     <link rel="author" href="http://gawds.in" />
     <meta name="author" content="Rishabh Chanana" />
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/contact.css">
+    <link rel="stylesheet" type="text/css" href="css/carousel.css">
+	<link rel="stylesheet" type="text/css" href="css/image-slide.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/nav.css">
 	<link rel="shortcut icon" href="images/logo.png" />
 </head>
@@ -23,7 +24,7 @@
 	<div class = "nav-main-links">
 		<ul class = "main-links">
 			<li><a href = "index.html">Home</a></li>
-			<li><a href = "initiatives.html">Initiatives</a></li>
+			<li><a href = "#" class = "active">Initiatives</a></li>
 			<li><a href = "team.html">Team</a></li>
 			<li><a href = "partners.html">Partners</a></li>
 		</ul>
@@ -32,46 +33,12 @@
 		<ul class = "left-links">
 			<li><a href = "joinus.html">Join us</a></li>
 			<li><a href = "contribute.html">Contribute</a></li>
-			<li><a href = "#" class = "active">Contact us</a></li>
+			<li><a href = "contact.html">Contact us</a></li>
 		</ul>
 	</div> 
-	<button type = "button" id="linkDisp">Links</button>
+	<button type = "button" id="linkDisp">&#9776;</button>
 </div>
 <!-- nav bar ends here -->
-
-<!-- content -->
-<div id="contactUs">
-	<div class="row">
-		<div class="col">
-			<img src = "images/phone.png" style="margin-bottom: 20px;">
-			<p class="lbl">
-				+91 999 014 8307
-			</p>
-		</div>
-		<div class="col">
-			<img src = "images/location.png" style="margin-bottom: 20px;">
-			<p class="lbl">
-				International Headquarters
-				586, Sector 21 A Faridabad-121001 Haryana, India
-			</p>
-			<p class="lbl">
-				African Headquarters
-				Commune d'Ibanda, Avenue du Lac 38, Ville de Bukavu, Democratic Republic of Congo
-			</p>
-			<p class="lbl">
-				European Headquarters
-				3, Flat 6, Preston Court, Msierah Street, San Gwann, Sgn 2321, Malta
-			</p>
-		</div>
-		<div class="col" style="margin-bottom: 20px;">
-			<img src = "images/mail.png">
-			<p class="lbl">
-				team@greenthegene.org
-			</p>
-		</div>
-	</div>
-	</div>
-<!-- end -->
 <!-- follow us -->
 <div id="follow">
 	<h1>Follow us</h1>
@@ -124,6 +91,9 @@
 	</p>
 </div>
 <!-- site map ends here -->
-
 </body>
+<script src="js/jquery.js"></script>
+<script src="js/image-slide.js"></script>
+<script src="js/carousel.js"></script>
+<script src="js/main.js"></script>
 </html>

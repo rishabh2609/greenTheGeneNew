@@ -1,0 +1,13 @@
+#contactUs {
+	margin-top: 7.5%;
+	font-size: 1.5rem;
+}
+.row {
+	margin-bottom: 30px;
+	text-align: center;
+}
+.col {
+	padding: 2% 2%;
+	width: 100%;
+	text-align: center;
+}

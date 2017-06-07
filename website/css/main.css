@@ -159,6 +159,9 @@ hr {
 	display: inline;
 	margin-left: 5px;
 }
+#follow > ul > li > a > img {
+	width: 50px;
+}
 #follow > ul > li > img {
 	width: 50px;
 }
