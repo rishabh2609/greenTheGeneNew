@@ -55,7 +55,7 @@
 	font-family: proxima-light;
 	font-size: 1.5rem;
 }
-.active {
+.selected {
 	background: #ffffff !important;
 	color: #5cd65c !important;
 }

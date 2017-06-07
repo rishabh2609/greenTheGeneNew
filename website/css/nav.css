@@ -72,6 +72,7 @@
 }
 .active {
 	color: green !important;
+	font-weight: bolder !important;
 }
 .main-links>li>a:hover, .left-links>li>a:hover {
 	border-bottom-width: 1px;

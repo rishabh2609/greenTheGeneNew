@@ -185,6 +185,10 @@ hr {
 #siteMap > ul > li >  ul > li {
 	margin: 20px;
 }
+#siteMap > ul > li >  ul > li > a {
+	color: #ffffff;
+	text-decoration: none;
+}
 *:focus {
 	outline: none;
 }
