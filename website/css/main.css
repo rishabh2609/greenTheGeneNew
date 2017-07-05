@@ -214,3 +214,34 @@ hr {
 	padding: 20px 50px;
 	font-size: 2rem;
 }
+
+#initiatives_page {
+	margin-top: 7.5%;
+}
+.ini_full_descp {
+	margin-top: 30px;
+	margin-bottom: 50px;
+	height: auto;
+}
+.initiatives_descp {
+	padding: 20px 150px;
+	font-size: 1.5rem;
+}
+.responsive_img {
+	max-width: 35%;
+}
+.extra_info {
+	display: none;
+}
+.more_info_btn {
+	background: transparent;
+	border: 0px solid;
+	color: green;
+	font-size: 1.2rem;
+	cursor: pointer;
+	display: inline;
+}
+.ini_heading {
+	font-size: 52px;
+	margin-left: 150px;
+}
